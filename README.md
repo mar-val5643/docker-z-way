@@ -49,6 +49,7 @@ On Raspberry Pi, build the docker container:
     ```sh
     sudo apt-get install git
     git clone https://github.com/mar-val5643/docker-z-way.git
+    cd docker-z-way
     sudo docker build -t z-way-container .
     sudo mkdir /data
     ```
