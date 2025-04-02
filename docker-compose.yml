@@ -4,12 +4,6 @@ services:
       context: .
     container_name: z-way-container
     devices:
-      - /dev/ttyACM0:/dev/ttyACM0
-      - /dev/ttyACM1:/dev/ttyACM1
-      - /dev/ttyACM2:/dev/ttyACM2
-      - /dev/ttyACM3:/dev/ttyACM3
-      - /dev/ttyAMA0:/dev/ttyAMA0
-      - /dev/ttyS0:/dev/ttyS0
       - /dev/ttyUSB0:/dev/ttyUSB0
       - /dev/ttyUSB1:/dev/ttyUSB1
     ports:
